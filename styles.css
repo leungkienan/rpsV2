@@ -1,20 +1,77 @@
 body{
-    background-color: #2d2d2d;
-    width: 60%;
+    background-color: #121212;
+    min-width: fit-content;
+    max-width: 60%;
+    align-items: center;
     margin: auto;
-    flex: auto;
+    padding: auto;
 }
 
-h1{
+h1, h2{
     color:white;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 
-button{
-    margin: auto;
-    padding: 10px;
+.scoreContainer{
     align-items: center;
-    border: none;
-    color: white;
+    display: flex;
+    justify-content: space-between;
+    min-width:40%;
+    max-width: 60%;
+    padding: 10px auto;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    text-align: center;
+}
+
+.scoreBox{
+    font-size: 48px 30px;
+}
+
+.gameButtons{
+    align-items: center;
+    display: flex;
+    min-width:50%;
+    max-width:80%;
+    justify-content: space-between;
+    margin:auto;
+}
+.btn{
+    max-width: 200px;
+    max-height:200px;
+    min-width: 100px;
+    min-height: 100px;
+    border-radius: 1rem;
+    border:none;
+    background-color:#bb86fc ;
+    color:#3700b3;
+    font-size: 50px 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn:hover{
+    background-color:#d1affa ;
+    color:#4302dc;
+}
+
+#restartBtn{
+    width : 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    background-color:#bb86fc ;
+    color:#3700b3;
+    height:100px;
+    font-size: 30px;
+    border:none;
+    border-radius: 1rem;
+    padding:10px;
+    margin:90px auto
+}
+
+#restartBtn:hover{
+    background-color:#d1affa ;
+    color:#4302dc;
+    font-weight: 800;
 }

@@ -10,13 +10,27 @@
   </head>
   <body>
     <div class="title">
-      <h1>Start the game by clicking a button below</h1>
+      <h1>Rock, Paper, Scissors</h1>
+      <h2>It's that easy</h2>
+    </div>
+    <h1>Score</h1>
+    <div class="scoreContainer">
+      <div class="scoreBox">
+        <div id="playerSign">?</div>
+        <p id="playerScore">Player: 0</p>
+      </div>
+      <div class="scoreBox">
+        <div id="computerSign">?</div>
+        <p id="computerScore">Computer: 0</p>
+      </div>
     </div>
     <div class="gameButtons">
-      <button onClick="game()" class="playRock">Rock</button>
-      <button onClick="game()" class="playPaper">Paper</button>
-      <button onClick="game()" class="playScissors">Scissors</button>
+      <button class="btn" id="rockBtn">Rock</button>
+      <button class="btn" id="paperBtn">Paper</button>
+      <button class="btn" id="scissorsBtn">Scissors</button>
     </div>
-    <div class="results"><h1>Scores</h1></div>
+    <div class="gameButtons">
+      <button id="restartBtn">NEW GAME</button>
+    </div>
   </body>
 </html>
